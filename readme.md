@@ -1,8 +1,6 @@
 # MeLi DataWarehousing Challenge
 This project allows the user to run a series of given queries in a dummy database. In order to achieve that, on the one hand it creates a virtual environment containing the jupyter notebook later used to perform all the queries, and installs all the required dependencies, as well as an ipython kernel for the notebook. On the other hand it builds a docker image which, when started, creates and populates the dummy database. Finally, the required queries can be run through the jupyter notebook.
 
-## How to use this project
-
 ### build docker image
 
 ```console
@@ -147,4 +145,5 @@ Se podría pensar entonces en un sistema donde tengamos en primer lugar un stora
 
 
 
-
+# Nivel 3
+El ejercicio del nivel 3 se realizó con Google BigQuery y se encuentran las instrucciones para su debida conexión dentro del notebook 'connections'.
